@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color:aquamarine;
+}
+
+
+#header_title{
+    font-family:'Lucida Sans',sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+button{
+    font-size: 35px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 20px;
+    border-color: black;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #f5f5f5;
+
+
+}
+
+button .button_images{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    border-color: black ;
+    padding: 20px;
+    background-color: #f5f5f5;
+
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+
+.button_section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.button_container {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+/* .results_section{
+    border: 4px black; 
+    border-style: solid;
+    height: max-content;
+    width: max-content;
+    
+} */
+
+.results_section h2{
+    display: flex;
+    justify-content: center;
+    /* gap: 20px;
+    margin: 30px 10px;
+    font-size: 20px; */
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.player_choices{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /*margin: 30px 10px;*/
+    font-size: 25px;
+    font-weight: bold;
+    padding: 1%;
+    flex-direction: row;
+}
+
+.player_container{
+    border-radius: 5px;
+    border: 2px solid black;
+    gap: 20px; 
+    display: flex;
+    background-color: rgb(214, 212, 212);
+    padding: 6px;
+    
+}
+
+p, #player_choice, #computer_choice , #player_score, #computer_score{
+    background-color: rgb(214, 212, 212);
+}
+
+.scores{
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.scores h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.score_board{
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    border: 3px solid black;
+    font-size: 30px;
+
+}
+
+.score_board p{
+    background-color: rgb(214, 212, 212);
+}
+
+

@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="game.js"></script>
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1 id="header_title">Rock - Paper - Scissors</h1>
+    </header>
+
+    <main>
+        <div class ="button_section">
+            <div class="button_container">
+                <button id="rock">
+                    <img src="images/rock.jpeg" alt="rock" class="button_images">
+                    Rock
+                </button>
+            
+                <button id="paper">
+                    <img src="images/paper.jpeg" alt="paper" class="button_images">
+                    Paper
+                </button>
+                <button id="scissors">
+                    <img src="images/scissors.jpeg" alt="scissors" class="button_images">
+                    Scissors
+                </button>
+            </div>
+        </div>
+
+        <section class="results_section">
+            <h2> Current Results:</h2>
+            <h2><em>First to 5 wins!</em></h2>
+            <div class="player_choices">
+                <div class="player_container">
+                    <p>Player Choice: <span id ="player_choice">Null</span></p>
+                    <p>Computer Choice: <span id="computer_choice">Null</span></p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="scores">
+            <h2>Current scores : </h2> 
+             <div class = "score_board">
+                 <p>You (<span id="player_score">0</span>/5) vs Computer : (<span id="computer_score">0</span>/5)</p>
+             </div>
+         </div>
+    </main>
 </body>
 </html>
