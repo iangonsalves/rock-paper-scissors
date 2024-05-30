@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="/images/icon_image.png">
     <script src="game.js" defer></script>
 </head>
 <body>
@@ -34,20 +35,32 @@
         <section class="results_section">
             <h2> Current Results:</h2>
             <h2><em>First to 5 wins!</em></h2>
+
             <div class="player_choices">
                 <div class="player_container">
                     <p>Player Choice: <span id ="player_choice">Null</span></p>
                     <p>Computer Choice: <span id="computer_choice">Null</span></p>
                 </div>
             </div>
+
+            <div class="scores">
+                <h2>Current scores: </h2> 
+                 <div class = "score_board">
+                     <p>You (<span id="player_score">0</span>/5) vs Computer : (<span id="computer_score">0</span>/5)</p>
+                 </div>
+                </div>
+
+            <div class="outcome_section">
+                <h2>Outcome:</h2>
+                <div class="outcome_container">
+                    <p id="outcome_text"> Result: Null </p>
+                </div>
+            </div>
+
+            <div class="reset_button">
+                <button id = "reset_button"> Reset Game.</button>
+            </div>
         </section>
-        
-        <div class="scores">
-            <h2>Current scores : </h2> 
-             <div class = "score_board">
-                 <p>You (<span id="player_score">0</span>/5) vs Computer : (<span id="computer_score">0</span>/5)</p>
-             </div>
-         </div>
     </main>
 </body>
 </html>
